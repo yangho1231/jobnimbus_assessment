@@ -1,3 +1,6 @@
+//Find whether string have matching brackets.
+//EX) {} -> True, {)} -> False, "" -> True
+
 function matchBracket(str) {
     let bracket = [];
     let checkBracket = ['(', ')', '{', '}', '[', ']'];
